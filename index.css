@@ -27,7 +27,7 @@ a, a:hover {
 
 @keyframes throw {
     0%   {height:10vh;}
-    50%  {height:80vh;}
+    50%  {height:60vh;}
     100% {height:10vh;}
   }
 
