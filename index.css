@@ -10,6 +10,16 @@ body {
     background-image: linear-gradient(to bottom right, #F00, #000);
 }
 
+h1 {
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 a, a:hover {
     color: #FFF;
     font-family: 'Orbitron', sans-serif;
@@ -23,6 +33,7 @@ a, a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 @keyframes throw {
@@ -43,7 +54,7 @@ a, a:hover {
 
 .yoyo {
     height: 90px;
-    width: 110px;
+    width: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +62,7 @@ a, a:hover {
 
 .left{
     height:90px;
-    width:45px;
+    width:35px;
     border-radius: 0 90px 90px 0;
     background:#FFF;
 }
@@ -85,7 +96,7 @@ a, a:hover {
 
 .right{
     height:90px;
-    width:45px;
+    width:35px;
     border-radius: 90px 0 0 90px;
     background:#FFF;
 }
